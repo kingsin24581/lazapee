@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app',
   template: `
-    <store></store>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lazapee';
+  title = 'lazadee';
 }
